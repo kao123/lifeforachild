@@ -1,0 +1,11 @@
+#summary Life for a Child Program - Design Spefications.
+
+
+= Background and Need =
+
+Children with diabetes in developing countries frequently die quickly or are chronically unwell with poor quality of life and develop early and devastating complications. This is because insulin, other supplies, and diabetes care is often unaffordable or unavailable. 
+
+The International Diabetes Federation (IDF) is the umbrella organisation for the world’s diabetes associations. It is incorporated in Brussels, Belgium. The IDF “Life for a Child Program” (LFC) supports the care of children with diabetes in developing countries, and builds capacity in the centres caring for these children.  The program started in 2000, and now helps in 19 countries.  The program is mainly administered from Sydney, Australia, by HOPE worldwide (Australia) and Diabetes Australia-NSW.
+
+Funds and supplies are provided to diabetes centres caring for children, and a specific list of the most needy children is helped by LFC’s support. Medical care is determined by the centres themselves, not the LFC Program. The centres provide annual reports. One of the main components of these reports is an annual clinical data sheet (see attachment). This form is filled out at baseline and then each year. A copy is kept at the centre and the original is sent through to the LFC office in Sydney.
+

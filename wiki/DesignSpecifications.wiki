@@ -43,8 +43,8 @@ Various fields will have various limitations – e.g. for date of birth, sometim
 The attached Excel files give the field types and limits that we agreed with Velos. There are two files – one labelled “Database field instructions for Velos with Velos comments” which goes through each question, and “Database Velos datamap at beta-testing stage” which was the document they used to prepare the database.
 
 We will add a couple of extra questions – 
-* One in the registration part of the form asking about how far the child lives from the centre (there will be four options:  within the city where the centre is, within 50km of the city, between 50 and 200 km, and over 200km).
-* One in the clinical record part – asking, when the calculated age is over 10,  if the child is literate or not (yes or no)
+*  One in the registration part of the form asking about how far the child lives from the centre (there will be four options:  within the city where the centre is, within 50km of the city, between 50 and 200 km, and over 200km).
+*  One in the clinical record part – asking, when the calculated age is over 10,  if the child is literate or not (yes or no)
 
 There will be a few additional calculated fields (see below)
 
@@ -102,19 +102,15 @@ A few fields should be set up to develop an audit record if changed (eg date of 
 
 This is personal health information so the database needs to be very secure
 
- There will be tiered levels of access to the data
+There will be tiered levels of access to the data
 
-# Individual centres will only be able to see data from their centre, and will determine who in their centre has that access.
-
-# The Life for a Child Program Manager (Graham Ogle) and his Assistant(s) in Sydney Australia, will have access to all data. Other approved Data Enterers 9if needed) will only have access to the data sheets that they are entering, and the previous data from that country (so they can properly link longitudinal patient data)
-
-# If the data is to be used for research, once approval is obtained, researchers will only have access to fully de-identified data.
+  # Individual centres will only be able to see data from their centre, and will determine who in their centre has that access.
+  # The Life for a Child Program Manager (Graham Ogle) and his Assistant(s) in Sydney Australia, will have access to all data. Other approved Data Entry operators (if needed) will only have access to the data sheets that they are entering, and the previous data from that country (so they can properly link longitudinal patient data)
+  # If the data is to be used for research, once approval is obtained, researchers will only have access to fully de-identified data.
 
 
 == Maintenance ==
 
 Ongoing maintenance will be needed – new users (although probably LFC can be trained to do that), new reports, other needs.
-
-
 
 

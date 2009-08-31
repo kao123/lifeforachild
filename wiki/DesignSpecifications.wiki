@@ -5,7 +5,48 @@
 
 Children with diabetes in developing countries frequently die quickly or are chronically unwell with poor quality of life and develop early and devastating complications. This is because insulin, other supplies, and diabetes care is often unaffordable or unavailable. 
 
-The International Diabetes Federation (IDF) is the umbrella organisation for the world’s diabetes associations. It is incorporated in Brussels, Belgium. The IDF “Life for a Child Program” (LFC) supports the care of children with diabetes in developing countries, and builds capacity in the centres caring for these children.  The program started in 2000, and now helps in 19 countries.  The program is mainly administered from Sydney, Australia, by HOPE worldwide (Australia) and Diabetes Australia-NSW.
+The International Diabetes Federation (IDF) is the umbrella organisation for the world’s diabetes associations. It is incorporated in Brussels, Belgium. The IDF "Life for a Child Program" (LFC) supports the care of children with diabetes in developing countries, and builds capacity in the centres caring for these children.  The program started in 2000, and now helps in 19 countries.  The program is mainly administered from Sydney, Australia, by HOPE worldwide (Australia) and Diabetes Australia-NSW.
 
 Funds and supplies are provided to diabetes centres caring for children, and a specific list of the most needy children is helped by LFC’s support. Medical care is determined by the centres themselves, not the LFC Program. The centres provide annual reports. One of the main components of these reports is an annual clinical data sheet (see attachment). This form is filled out at baseline and then each year. A copy is kept at the centre and the original is sent through to the LFC office in Sydney.
+
+This annual clinical data sheet (ACDS) is used for monitoring of the program, in the following way:
+
+* It provides part of the proof that the care is reaching the child
+* It informs the LFC staff about the situation in the developing country, allowing them to advise on how to improve organisation of care (e.g. forms come back without blood pressure measurement, or without dates for measurements, without complications screening, or with the type of diabetes incorrectly diagnosed – and the LFC staff can help the centre improve this).
+* General patterns revealed by the forms help with advocacy and planning of extension of the support from LFC 
+* It helps the centres themselves develop registers, improve clinical care, and plan future health services
+
+
+The forms have not yet been used for research, but it is likely that this will be considered in the future. This would be a secondary purpose for the forms – the primary purpose is for program monitoring and administration.
+
+
+= The proposed database =
+
+The double-handling of the forms, need for data keying if they are to be put into a database, and challenges with reading handwriting etc have led us to plan a database that recipient centres and the LFC office could upload the ACDS to. This would streamline the process, saving time.  It would also reduce errors, and make the information much more accessible both for the recipient centre and the LFC office.
+
+We would like an open-source coded database in MySQL, hosted on a reputable Australian-based server. 
+
+Once in full operation, the plan would be for centres to upload their ACDS data directly to the database if possible. If they are not able to do this, the ACDS forms will be sent to the LFC Office in Sydney and approved Program Assistants will upload the forms.
+
+Last year, a database was being developed for us pr bono by Velos, a software company in California that specialises in large multi-centre clinical trials. This was using an Oracle platform, and was going to be hosted by the University of Oklahoma. However the IDF lawyers, on reviewing the legal issues, decided that there were too many cross-border privacy issues to host the database in the USA. Hence this plan had to be halted. However Velos did considerable work on planning of the types of fields, ranges etc, and we have all this information.
+
+The ACDS has about 68 fields
+
+We would like to split this so that there is a registration sheet on each child (with about 8 fields) and then a clinical record filled in annually (or more frequently if so wished by the centre concerned).
+
+Various fields will have various limitations – e.g. for date of birth, sometimes the day of the month is not known, or even the month. If the day of the month is not known, the person entering the data should be prompted to put in 15 as a default. If the month as well is not known, then month should be June.
+
+
+= Field descriptions =
+
+The attached Excel files give the field types and limits that we agreed with Velos. There are two files – one labelled “Database field instructions for Velos with Velos comments” which goes through each question, and “Database Velos datamap at beta-testing stage” which was the document they used to prepare the database.
+
+We will add a couple of extra questions – 
+* One in the registration part of the form asking about how far the child lives from the centre (there will be four options:  within the city where the centre is, within 50km of the city, between 50 and 200 km, and over 200km).
+* One in the clinical record part – asking, when the calculated age is over 10,  if the child is literate or not (yes or no)
+
+There will be a few additional calculated fields (see below)
+
+
+
 

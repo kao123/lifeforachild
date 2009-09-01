@@ -19,13 +19,13 @@ This section will outline the different users in the application, and the access
 
 == User Administration ==
 
-|| || *PM Assistants' User Admin* || *Data Entry Operators User Admin* || *Centre Admin User Admin* || *Centre Staff User Admin* || *Researchers User Admin* ||
+|| || *Program Manager Assistants' User Admin* || *Data Entry Operators User Admin* || *Centre Admin User Admin* || *Centre Staff User Admin* || *Researchers User Admin* ||
 || *Program Manager* || Yes || Yes || Yes || Yes || Yes ||
-|| *Program Manager's Assistants* || || Yes  || Yes || Yes || Yes ||
-|| *Data Entry Operators* || || || || || ||
-|| *Centre Admin* || || || || Yes || ||
-|| *Centre Staff* || || || || || ||
-|| *Researchers* || || || || || ||
+|| *Program Manager's Assistants* || No || Yes  || Yes || Yes || Yes ||
+|| *Data Entry Operators* || No || No || No || No || No ||
+|| *Centre Admin* || No || No || No || Yes || No ||
+|| *Centre Staff* || No || No || No || No || No ||
+|| *Researchers* || No || No || No || No || No ||
 
 
 == Children Management ==
@@ -36,7 +36,8 @@ This section will outline the different users in the application, and the access
 || *Data Entry Operators* || Yes || Yes || Yes || Yes || Yes ||
 || *Centre Admin* || Yes || Yes || Yes || Yes || Same centre only ||
 || *Centre Staff* || Yes || Yes || Yes || Yes || Same centre only ||
-|| *Researchers* || No || No || No || || ||
+|| *Researchers* || No || No || No || If permission has been granted || If permission has been granted ||
+
 
 
 
@@ -45,7 +46,7 @@ This section will outline the different users in the application, and the access
 == Medical Records ==
 
 
- # Can a child's existing medical records be edited? 
+ # Can a child's existing medical records be edited? If so can anyone edit them?
  # Can any centre user/program manager/PM's assistants/data entry operators edit them?
  # Is a child's registration record locked after a certain amount of time has passed since it was created/last modified?
  # Is a child's medical record locked after a certain amount of time has passed since it was created/last modified?
@@ -67,6 +68,8 @@ From the requirements:
  # Can researchers be restricted access to selected children? Or just one child?
  
 == Individual Centres ==
+
+From the requirements: 
 
  _Individual centres will only be able to see data from their centre, and will determine who in their centre has that access._
 

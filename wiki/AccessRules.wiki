@@ -1,0 +1,45 @@
+#summary Different User Types and their Associated Access Privileges
+
+= Introduction =
+
+This section will outline the different users in the application, and the access permissions associated to that particular user type.
+
+
+= User Types =
+
+ # Program Manager (Graham)
+ # Program Manager's Assistants
+ # Data Entry Operators
+ # Centre Admins - These users will be the ones managing the users for each individual centre
+ # Centre Staff
+ # Researchers
+
+
+= Permission Matrix =
+
+== User Administration ==
+
+|| || *PM Assistants' User Admin* || *Data Entry Operators User Admin* || *Centre Admin User Admin* || *Centre Staff User Admin* || *Researchers User Admin* ||
+|| *Program Manager* || Yes || Yes || Yes || Yes || Yes ||
+|| *Program Manager's Assistants* || || Yes  || Yes || Yes || Yes ||
+|| *Data Entry Operators* || || || || || ||
+|| *Centre Admin* || || || || Yes || ||
+|| *Centre Staff* || || || || || ||
+|| *Researchers* || || || || || ||
+
+
+== Children Management ==
+
+|| || *Child Registration* || *Editing Child's Registration Record* || *Adding/Editing Child's Medical Records* || *Viewing Child's Medical Records* || *Viewing Centre Records* ||
+|| *Program Manager* || Yes || Yes || Yes || Yes || Yes ||
+|| *Program Manager's Assistants* || Yes || Yes  || Yes || Yes || Yes ||
+|| *Data Entry Operators* || Yes || Yes || Yes || Yes || Yes ||
+|| *Centre Admin* || Yes || Yes || Yes || Yes || Same centre only ||
+|| *Centre Staff* || Yes || Yes || Yes || Yes || Same centre only ||
+|| *Researchers* || No || No || No || || ||
+
+
+
+= Questions =
+ # Can a child's existing medical records be edited? Can any centre user/program manager/PM's assistants/data entry operators edit them? Is the record locked after a certain amount of time has passed since it was created/last modified?
+ # Data Entry Operators

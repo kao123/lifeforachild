@@ -57,7 +57,19 @@ From the requirements:
 
   _Other approved Data Enterers (if needed) will only have access to the data sheets that they are entering, and the previous data from that country (so they can properly link longitudinal patient data_
 
+ # Do the data entry operators only have access to just the one ACDS sheet that they're currently working on?
+ # Can they edit existing data sheets?
+ # What previous data can they access and how do they access this? Is it like the reports that researchers can access? Is it just previous data for the same child?
+
+
 == Researchers ==
  # Can researchers access fully deidentified records for all sites? Or are they restricted to a particular site or a list of sites?
  # Can researchers be restricted access to selected children? Or just one child?
+ 
+== Individual Centres ==
+
+ _Individual centres will only be able to see data from their centre, and will determine who in their centre has that access._
+
+ # Are there many levels of access? Or is it just Centre Admin and Centre Staff?
+ # Can different Centre Staff have different sets of permissions?
  

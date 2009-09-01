@@ -41,5 +41,23 @@ This section will outline the different users in the application, and the access
 
 
 = Questions =
- # Can a child's existing medical records be edited? Can any centre user/program manager/PM's assistants/data entry operators edit them? Is the record locked after a certain amount of time has passed since it was created/last modified?
- # Data Entry Operators
+
+== Medical Records ==
+
+
+ # Can a child's existing medical records be edited? 
+ # Can any centre user/program manager/PM's assistants/data entry operators edit them?
+ # Is a child's registration record locked after a certain amount of time has passed since it was created/last modified?
+ # Is a child's medical record locked after a certain amount of time has passed since it was created/last modified?
+
+
+== Data Entry Operators ==
+
+From the requirements:
+
+  _Other approved Data Enterers (if needed) will only have access to the data sheets that they are entering, and the previous data from that country (so they can properly link longitudinal patient data_
+
+== Researchers ==
+ # Can researchers access fully deidentified records for all sites? Or are they restricted to a particular site or a list of sites?
+ # Can researchers be restricted access to selected children? Or just one child?
+ 

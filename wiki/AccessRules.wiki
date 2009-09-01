@@ -10,7 +10,7 @@ This section will outline the different users in the application, and the access
  # Program Manager (Graham)
  # Program Manager's Assistants
  # Data Entry Operators
- # Centre Admins - These users will be the ones managing the users for each individual centre
+ # Centre Admins - Will be the ones managing the users for each individual centre
  # Centre Staff
  # Researchers
 

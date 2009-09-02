@@ -19,9 +19,9 @@ This section will outline the different users in the application, and the access
 
 == User Administration ==
 
-|| || *Program Manager Assistants' User Admin* || *Data Entry Operators User Admin* || *Centre Admin User Admin* || *Centre Staff User Admin* || *Researchers User Admin* ||
+|| || *PM's Assistants' Account Mgmt* || *Data Entry Operators Account Mgmt* || *Centre Admins Account Mgmt* || *Centre Staff Account Mgmt* || *Researchers Account Mgmt* ||
 || *Program Manager* || Yes || Yes || Yes || Yes || Yes ||
-|| *Program Manager's Assistants* || No || Yes  || Yes || Yes || Yes ||
+|| *PM's Assistants* || No || Yes  || Yes || Yes || Yes ||
 || *Data Entry Operators* || No || No || No || No || No ||
 || *Centre Admin* || No || No || No || Yes || No ||
 || *Centre Staff* || No || No || No || No || No ||

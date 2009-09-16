@@ -6,6 +6,8 @@ This document will outline the design for the reporting component.
 
 = Screen Design =
 
+== Configure Report Screen ==
+
 The following screenshot is a suggested layout for selecting and configuring reports.
 
 [http://lifeforachild.googlecode.com/files/configureReport.PNG]
@@ -18,11 +20,15 @@ There are three buttons:
  # Delete - allows a saved report to be deleted.
 
 The report filter fields are defined as:
- * Report Type - mandatory. Either Patient or Record
- * Status - optional. If none selected will get all records. Options to get updated or not updated records.
- * Time period - numeric value in the first field, months or years to be selected in the second field. i.e. 6 months
- * Date Range - a specific date range can be searched.
- * Show - what records to show. Options include: first, last and all.
+ * Report Type - Mandatory. Either Patient or Record
+ * Status - Optional. If none selected will get all records. Options to get updated or not updated records.
+ * Time period - Optional. Numeric value in the first field, months or years to be selected in the second field. i.e. 6 months
+ * Date Range - Optional. A specific date range can be searched.
+ * Show - Optional. what records to show. Options include: first, last and all.
+
+== Display Report Screen ==
+
+[http://lifeforachild.googlecode.com/files/theReport.PNG]
 
 = Database Design =
 

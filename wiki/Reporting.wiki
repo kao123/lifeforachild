@@ -6,6 +6,14 @@ This document will outline the design for the reporting component.
 
 = Screen Design =
 
+= Database Design =
+
+A table would be added to the database to store saved reports.
+
+|| || *ID* || *name* || *type* || *status* || *timePeriodNum* || *timePeriod* || *fromDate* || *toDate* || *display* ||
+||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+
 = Questions =
 
  # Can users see all saved reports? Or only ones they have created?

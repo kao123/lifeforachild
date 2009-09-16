@@ -30,6 +30,8 @@ The report filter fields are defined as:
 
 [http://lifeforachild.googlecode.com/files/theReport.PNG]
 
+This screen would show the results for the report. It would allow the report configuration to be saved and the results exported to excel.
+
 = Database Design =
 
 A table would be added to the database to store saved reports.
@@ -39,9 +41,14 @@ A table would be added to the database to store saved reports.
 
 Each report would have a unique ID. The user could give the report a name. displayFields would be a comma separated list of fields to display in the report based on what was checked in the 'display options' section. The rest of the fields are the settings from the 'report filter' section.
 
+= Alternate Design Ideas =
+
+ * A multi select list of appropriate fields could be displayed rather than check boxes for each field to determine which fields to display in the report.
+
 = Questions =
 
  # Can users see all saved reports? Or only ones they have created?
- # Which fields should always be shown in a report?
- # Which fields should be configurable for a report?
+ # Which fields should always be shown in a Patient report? In a Records Report?
+ # Which fields should be configurable for a Patient report? In a Records Report?
  # Who should be able to delete saved reports?
+ # Some search features are also requested - don't want to overlap with search functionality being added.

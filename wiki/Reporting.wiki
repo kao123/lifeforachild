@@ -10,9 +10,10 @@ This document will outline the design for the reporting component.
 
 A table would be added to the database to store saved reports.
 
-|| *ID* || *name* || *type* || *status* || *timePeriodNum* || *timePeriod* || *fromDate* || *toDate* || *display* ||
+|| *ID* || *name* || *type* || *status* || *timePeriodNum* || *timePeriod* || *fromDate* || *toDate* || *showRecord* || *displayFields* ||
  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 
 
+Each report would have a unique ID. The user could give the report a name. displayFields would be a comma separated list of fields to display in the report based on what was checked in the 'display options' section. The rest of the fields are the settings from the 'report filter' section.
 
 = Questions =
 

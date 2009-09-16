@@ -6,6 +6,8 @@ This document will outline the design for the reporting component.
 
 = Screen Design =
 
+[http://lifeforachild.googlecode.com/files/configureReport.PNG]
+
 = Database Design =
 
 A table would be added to the database to store saved reports.

@@ -12,7 +12,7 @@ A table would be added to the database to store saved reports.
 
 || *ID* || *name* || *type* || *status* || *timePeriodNum* || *timePeriod* || *fromDate* || *toDate* || *display* ||
  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 
- ||  ||  ||  ||  ||  ||  ||  ||  ||  || 
+|| ||  ||  ||  ||  ||  ||  ||  ||  ||  || 
 
 = Questions =
 

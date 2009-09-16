@@ -6,7 +6,23 @@ This document will outline the design for the reporting component.
 
 = Screen Design =
 
+The following screenshot is a suggested layout for selecting and configuring reports.
+
 [http://lifeforachild.googlecode.com/files/configureReport.PNG]
+
+The 'Saved Reports' dropdown contains a list of all saved reports. If a saved report is selected the fields on the screen will be updated as they were configured for the original report.
+
+There are three buttons:
+ # Show - shows the selected or configured report
+ # Save - allows the report configuration to be saved, prompting the user for a name for the report.
+ # Delete - allows a saved report to be deleted.
+
+The report filter fields are defined as:
+ * Report Type - mandatory. Either Patient or Record
+ * Status - optional. If none selected will get all records. Options to get updated or not updated records.
+ * Time period - numeric value in the first field, months or years to be selected in the second field. i.e. 6 months
+ * Date Range - a specific date range can be searched.
+ * Show - what records to show. Options include: first, last and all.
 
 = Database Design =
 
@@ -22,3 +38,4 @@ Each report would have a unique ID. The user could give the report a name. displ
  # Can users see all saved reports? Or only ones they have created?
  # Which fields should always be shown in a report?
  # Which fields should be configurable for a report?
+ # Who should be able to delete saved reports?

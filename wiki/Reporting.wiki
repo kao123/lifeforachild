@@ -2,11 +2,11 @@
 
 = Introduction =
 
-Add your content here.
+This document will outline the design for the reporting component.
 
 
 = Details =
 
-* Can users see all saved reports? Or only ones they have created?
-* Which fields should always be shown in a report?
-* Which fields should be configurable for a report?
+# Can users see all saved reports? Or only ones they have created?
+# Which fields should always be shown in a report?
+# Which fields should be configurable for a report?

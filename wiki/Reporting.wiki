@@ -4,8 +4,9 @@
 
 This document will outline the design for the reporting component.
 
+= Screen Design =
 
-= Details =
+= Questions =
 
  # Can users see all saved reports? Or only ones they have created?
  # Which fields should always be shown in a report?

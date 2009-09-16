@@ -1,0 +1,12 @@
+#summary Design for reporting component.
+
+= Introduction =
+
+Add your content here.
+
+
+= Details =
+
+* Can users see all saved reports? Or only ones they have created?
+* Which fields should always be shown in a report?
+* Which fields should be configurable for a report?

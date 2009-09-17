@@ -26,6 +26,8 @@ The report filter fields are defined as:
  * Date Range - Optional. A specific date range can be searched.
  * Show - Optional. what records to show. Options include: first, last and all.
 
+The display options would display options based on the report type for the fields that apply.
+
 == Display Report Screen ==
 
 [http://lifeforachild.googlecode.com/files/theReport.PNG]

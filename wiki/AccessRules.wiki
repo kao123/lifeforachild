@@ -68,11 +68,21 @@ From the requirements:
  # Can they edit existing data sheets?
  # What previous data can they access and how do they access this? Is it like the reports that researchers can access? Is it just previous data for the same child?
 
+===Answers (from Graham):===
+
+ # Yes I think so (I need to think through more) - see table attached 
+ # Yes - see above 
+ # ?
 
 == Researchers ==
  # Can researchers access fully deidentified records for all sites? Or are they restricted to a particular site or a list of sites?
  # Can researchers be restricted access to selected children? Or just one child?
  
+===Answers===
+
+ # Researchers will be very limited - see table attached- we will generally give exported data to them 
+ # Researchers will be very limited - see table attached - we will generally give exported data to them
+
 == Individual Centres ==
 
 From the requirements: 

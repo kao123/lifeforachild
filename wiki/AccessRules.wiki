@@ -51,6 +51,12 @@ This section will outline the different users in the application, and the access
  # Is a child's registration record locked after a certain amount of time has passed since it was created/last modified?
  # Is a child's medical record locked after a certain amount of time has passed since it was created/last modified?
 
+===Answers (from Graham):===
+
+ # Yes, anyone with access, but there will need to be a log of such changes 
+ # see above and below 
+ # no, but there would need to be a log - in fact a log for the registration pages and another log for the medical record pages would be good 
+ # Not at present - maybe we will develop this after a couple of years - can we introduce that then or should we have a code and say 3 years now? 
 
 == Data Entry Operators ==
 

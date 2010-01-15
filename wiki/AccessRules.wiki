@@ -77,8 +77,8 @@ From the requirements:
 == Researchers ==
  # Can researchers access fully deidentified records for all sites? Or are they restricted to a particular site or a list of sites?
  # Can researchers be restricted access to selected children? Or just one child?
- 
-===Answers===
+
+===Answers (from Graham):===
 
  # Researchers will be very limited - see table attached- we will generally give exported data to them 
  # Researchers will be very limited - see table attached - we will generally give exported data to them
@@ -91,4 +91,9 @@ From the requirements:
 
  # Are there many levels of access? Or is it just Centre Admin and Centre Staff?
  # Can different Centre Staff have different sets of permissions?
+
+===Answers (from Graham):===
+
+ # I have put in a Country Manager line 
+ # ? 
  

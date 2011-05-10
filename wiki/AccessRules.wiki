@@ -10,6 +10,7 @@ This section will outline the different users in the application, and the access
  # Program Manager (Graham)
  # Program Manager's Assistants
  # Data Entry Operators
+ # Centre Manager - Will manage all centres in their country
  # Centre Admins - Will be the ones managing the users for each individual centre
  # Centre Staff
  # Researchers
@@ -17,29 +18,7 @@ This section will outline the different users in the application, and the access
 
 = Permission Matrix =
 
-== User Administration ==
-
-|| || *PM's Assistants' Account Mgmt* || *Data Entry Operators Account Mgmt* || *Centre Admins Account Mgmt* || *Centre Staff Account Mgmt* || *Researchers Account Mgmt* ||
-|| *Program Manager* || Yes || Yes || Yes || Yes || Yes ||
-|| *PM's Assistants* || No || Yes  || Yes || Yes || Yes ||
-|| *Data Entry Operators* || No || No || No || No || No ||
-|| *Centre Admin* || No || No || No || Yes || No ||
-|| *Centre Staff* || No || No || No || No || No ||
-|| *Researchers* || No || No || No || No || No ||
-
-
-== Children Management ==
-
-|| || *Child Registration* || *Editing Child's Registration Record* || *Adding/Editing Child's Medical Records* || *Viewing Child's Medical Records* || *Viewing Centre Records* ||
-|| *Program Manager* || Yes || Yes || Yes || Yes || Yes ||
-|| *Program Manager's Assistants* || Yes || Yes  || Yes || Yes || Yes ||
-|| *Data Entry Operators* || Yes || Yes || Yes || ?? || ?? ||
-|| *Centre Admin* || Yes || Yes || Yes || Yes || Same centre only ||
-|| *Centre Staff* || Yes || Yes || Yes || Yes || Same centre only ||
-|| *Researchers* || No || No || No || If permission has been granted || If permission has been granted ||
-
-
-
+See 'Database access Feb 1b.xls' for latest matrix.
 
 = Questions =
 

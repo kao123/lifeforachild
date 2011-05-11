@@ -4,7 +4,7 @@
 
 == Calculating Z-Score for Height, Weight, BMI ==
 
-Please refer to [http://code.google.com/p/lifeforachild/wiki/DesignSpecifications DesignSpecifications] for information on Z-Score calculations of Height, Weight and BMI.
+Please refer to [http://code.google.com/p/lifeforachild/wiki/DesignSpecifications DesignSpecifications] for information on calculating Z-Scores for Height, Weight and BMI.
 
 == Calculating Z-Score for Systolic and Diastolic Blood Pressure (SBP and DBP) ==
 *Data needed:*  sex, calculated Height Z-Score (HZS) and age (in years, decimal) – as blood pressure depends on age, sex and height

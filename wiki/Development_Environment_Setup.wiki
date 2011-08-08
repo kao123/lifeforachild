@@ -20,11 +20,11 @@ Note: Maven and Roo come installed with STS so don't need to be installed separa
 
 == Database Setup ==
 
-  # open command prompt and run the following:
+  Open command prompt and run the following:
   * cd C:\Program Files\MySQL\MySQL Server 5.5\bin
   * mysqld
 
-  # open a new command prompt and run the following:
+  Open a new command prompt and run the following:
   * mysqladmin -u root password NEWPASSWORD
   * cd C:\Program Files\MySQL\MySQL Server 5.5\bin
   * mysql -u root -p
@@ -35,13 +35,36 @@ Note: Maven and Roo come installed with STS so don't need to be installed separa
   * CREATE USER 'dev'@'localhost'
     IDENTIFIED BY 'password';
 
-  * GRANT ALL PRIVILEGES ON *.* TO 'dev2'@'localhost'
+  * GRANT ALL PRIVILEGES ON *.* TO 'dev'@'localhost'
    WITH GRANT OPTION; 
 
   -- make sure you do on separate lines
   * exit;
 
-check you can connect using this new user
-mysql -u dev -p
+  check you can connect using this new user
+  mysql -u dev -p
 
 == Code Setup ==
+
+  # Checkout code from https://lifeforachild.googlecode.com/svn/trunk, 
+
+on checkin enter you gmail email address and password generated from the page http://code.google.com/p/lifeforachild/source/checkout once you a logged in
+
+== Running the Application ==
+
+  # start STS 
+  # File > Import > Maven > Existing Maven Projects
+  # Specify checkout directory from above and continue
+  # Jars will start to download and everything build, this may take some time. Make sure everything builds correctly.
+  # Window > Show View > Servers
+  # Right click > add server, select apache, tomcat 6 server, select tomcat dir downloaded previously
+  # Right click on tomcat server, add and remove, add lifeforachild
+  # Open persistence.xml, change 'hibernate.hbm2ddl.auto' to create
+  # Start the tomcat server and make sure it connects ok.
+
+  # Stop the server and change the persistence file back (otherwise it will recreate the tables each time and you will lose your data)
+
+== Database Data Load ==
+  # Run MYSQL Workbench
+  # Add a new connection for dev@password to life_for_a_child schema and connect
+  

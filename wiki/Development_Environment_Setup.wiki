@@ -17,3 +17,31 @@ Note: Maven and Roo come installed with STS so don't need to be installed separa
   # In the same dialog, add the M2 environment variable in the user variables with the value %M2_HOME%\bin.
   # In the same dialog, update/create the Path environment variable in the user variables and prepend the value %M2% to add Maven available in the command line.
   # In the same dialog, make sure that JAVA_HOME exists in your user variables or in the system variables and it is set to the location of your JDK, e.g. C:\Program Files\Java\jdk1.5.0_02 and that %JAVA_HOME%\bin is in your Path environment variable.
+
+== Database Setup ==
+
+  # open command prompt and run the following:
+  * cd C:\Program Files\MySQL\MySQL Server 5.5\bin
+  * mysqld
+
+  # open a new command prompt and run the following:
+  * mysqladmin -u root password NEWPASSWORD
+  * cd C:\Program Files\MySQL\MySQL Server 5.5\bin
+  * mysql -u root -p
+  -- enter password created above when requested
+  * create database life_for_a_child;
+  * use life_for_a_child;
+
+  * CREATE USER 'dev'@'localhost'
+    IDENTIFIED BY 'password';
+
+  * GRANT ALL PRIVILEGES ON *.* TO 'dev2'@'localhost'
+   WITH GRANT OPTION; 
+
+  -- make sure you do on separate lines
+  * exit;
+
+check you can connect using this new user
+mysql -u dev -p
+
+== Code Setup ==

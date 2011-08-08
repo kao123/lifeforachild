@@ -1,0 +1,11 @@
+#Setup instructions for the Life for a Child Development Environment.
+
+= Software =
+
+Download and install:
+  * Java JDK 6
+  * Tortoise SVN
+  * Springsource toolsuite (STS)
+  * Apache Tomcat 6
+
+Note: Maven and Roo come installed with STS so don't need to be installed separately.

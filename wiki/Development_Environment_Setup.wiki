@@ -1,6 +1,6 @@
-#Setup instructions for the Life for a Child Development Environment.
+= Setup instructions for the Life for a Child Development Environment. =
 
-= Software =
+== Software ==
 
 Download and install:
   * Java JDK 6

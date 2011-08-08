@@ -67,4 +67,5 @@ on checkin enter you gmail email address and password generated from the page ht
 == Database Data Load ==
   # Run MYSQL Workbench
   # Add a new connection for dev@password to life_for_a_child schema and connect
+  # Run load script in ... TODO
   

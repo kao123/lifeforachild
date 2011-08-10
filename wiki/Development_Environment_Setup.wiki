@@ -61,11 +61,15 @@ on checkin enter you gmail email address and password generated from the page ht
   # Right click on tomcat server, add and remove, add lifeforachild
   # Open persistence.xml, change 'hibernate.hbm2ddl.auto' to create
   # Start the tomcat server and make sure it connects ok.
-
   # Stop the server and change the persistence file back (otherwise it will recreate the tables each time and you will lose your data)
 
 == Database Data Load ==
-  # Run MYSQL Workbench
-  # Add a new connection for dev@password to life_for_a_child schema and connect
-  # Run load script in ... TODO
+
+  # Add an environment variable for MYSQL_HOME - C:\Program Files\MySQL\MySQL Server 5.5\bin
+  # Add to the path %MYSQL_HOME\bin
+  # Open the command prompt and cd \lifeforachild\src\main\resources\sql
+  # mysql -u root -p
+  # source all.sql;
+
+This should run a script and finish sucessfully and you should now see data in the database.
   

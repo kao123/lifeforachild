@@ -72,4 +72,12 @@ on checkin enter you gmail email address and password generated from the page ht
   # source all.sql;
 
 This should run a script and finish sucessfully and you should now see data in the database.
+
+If something goes wrong there is a droptables.sql script in the same directory to clear the database and start again.
+
+== Starting the application ==
+
+  # Start tomcat again
+  # Go to http://localhost:8080/lifeforachild in IE
+  # Ask me for a login
   

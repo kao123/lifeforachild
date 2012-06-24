@@ -1,0 +1,13 @@
+source initialise/initialiseDB_schema.sql
+source updates/001_users.sql
+source updates/002_bmiage.sql
+source updates/003_statage.sql
+source updates/004_wtageinf.sql
+source updates/005_wtage.sql
+source updates/006_permissions.sql
+source updates/007_20100923_update.sql
+source updates/008_20110301_update.sql
+source updates/009_mark_deleted_false.sql
+source updates/010_sync_versions_tables.sql
+source updates/011_new_child_fields.sql
+source updates/triggers.sql

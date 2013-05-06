@@ -21,6 +21,6 @@ Steps:
   * Expand the war: jar xvf ../lifeforachild-staging.war
   * Modify *database.properties*: point to Production
   * Modify *web.xml*: update all "lifeforachild-staging" to "lifeforachild" (in vi: %s/-staging//g)
-  * ~~Modify *application.properties*: have the write encryption~~ (no longer needed as it is now in the server)
+  * ~~Modify *application.properties*: have the right encryption~~ (no longer needed as it is now in the server)
   * Create the war: jar cvf ../lifeforachild.war .
   * Copy the newly created war into the right Tomcat/webapps directory.
